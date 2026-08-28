@@ -9,7 +9,7 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Education from './sections/Education';
 import Certificates from './sections/Certificates';
-import Github from './sections/Github';
+import GithubSection from './sections/Github';
 import Contact from './sections/Contact';
 import './styles/responsive.css';
 
@@ -109,7 +109,7 @@ function App() {
               <Projects />
               <Education />
               <Certificates />
-              <Github />
+              <GithubSection />
               <Contact />
             </main>
             <Footer />

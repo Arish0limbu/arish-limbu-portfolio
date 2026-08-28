@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Github, Star, GitFork, Code, Users, ExternalLink } from 'lucide-react';
+import { Github as GithubIcon, Star, GitFork, Code, Users, ExternalLink } from 'lucide-react';
 import { profile } from '../data/profile';
 import SectionTitle from '../components/SectionTitle';
 import Button from '../components/Button';
 import './Github.css';
 
-const Github = () => {
+const GithubSection = () => {
   const [githubData, setGithubData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -102,7 +102,7 @@ const Github = () => {
             variants={itemVariants}
           >
             <div className="github__avatar">
-              <Github size={64} />
+              <GithubIcon size={64} />
             </div>
             
             <h2 className="github__username">@{displayData.login}</h2>
@@ -197,4 +197,4 @@ const Github = () => {
   );
 };
 
-export default Github;
+export default GithubSection;

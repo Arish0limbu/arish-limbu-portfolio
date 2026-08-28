@@ -50,7 +50,7 @@ const Scene = () => {
           />
           
           <Particles count={isMobile ? 500 : 2000} isMobile={isMobile} />
-          <FloatingObjects isMobile={isMobile} />
+          {/* <FloatingObjects isMobile={isMobile} /> */}
           
           <Environment preset="night" />
         </Suspense>

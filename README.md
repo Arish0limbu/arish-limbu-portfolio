@@ -1,4 +1,3 @@
-# arish-limbu-portfolio
 # Arish Limbu — Developer Portfolio
 
 > Building. Learning. Creating.
